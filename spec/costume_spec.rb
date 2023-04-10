@@ -12,6 +12,7 @@ describe "Costume" do
     expect(hot_dog.price).to eq(169.97)
   end
 
+  
   it "has a size (string)" do
     hot_dog.update(size: "medium")
     expect(hot_dog.size).to eq("medium")
